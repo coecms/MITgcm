@@ -63,7 +63,7 @@ LIBS=''
 if [ "x$NETCDF_ROOT" != x ] ; then
     INCLUDEDIRS="${NETCDF_ROOT}/include/Intel"
     INCLUDES="-I${NETCDF_ROOT}/include/Intel"
-    LIBS="-L${NETCDF_ROOT}/li/Intelb"
+    LIBS="-L${NETCDF_ROOT}/lib/Intel"
 fi
 
 if [ -n "$MPI_INC_DIR" -a "x$MPI" = xtrue ] ; then
