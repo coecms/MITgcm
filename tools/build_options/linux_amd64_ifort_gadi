@@ -36,7 +36,7 @@ OMPFLAG='-openmp'
 NOOPTFLAGS='-O0 -g'
 NOOPTFILES=''
 
-FFLAGS="$FFLAGS -WB -convert big_endian -assume byterecl"
+FFLAGS="$FFLAGS -WB -convert big_endian -assume byterecl -mcmodel=medium"
 FFLAGS="$FFLAGS -fPIC"
 
 if test "x$IEEE" = x ; then     #- with optimisation:
